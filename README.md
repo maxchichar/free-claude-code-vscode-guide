@@ -114,7 +114,7 @@ uv run uvicorn server:app --host 0.0.0.0 --port 8082 &
 sleep 3
 
 # Confirm it's running
-curl -s http://localhost:8082 && echo ""
+curl -H "Authorization: Bearer freecc" http://localhost:8082 && echo ""
 echo "✅ Claude Code proxy is ready!"
 echo "👉 Now: cd into your project and run 'code .' or 'claude'"
 ```
