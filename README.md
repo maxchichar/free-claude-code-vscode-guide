@@ -56,7 +56,7 @@ npm install -g @anthropic-ai/claude-code
 ### 5. Clone and Configure the Repo
 
 ```bash
-https://github.com/Alishahryar1/free-claude-code.git
+git clone https://github.com/Alishahryar1/free-claude-code.git
 cd free-claude-code
 cp .env.example .env
 ```
